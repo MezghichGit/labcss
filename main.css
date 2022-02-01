@@ -1,8 +1,13 @@
-h1{
+h1, h3, h6{
     color:red;
     border : dashed green 2px
 }
 
 h2{
-    color:blue
+    color:blue;
+    border : solid red 2px
+}
+
+p span{
+    background-color: aqua;
 }
