@@ -11,3 +11,11 @@ h2{
 p span{
     background-color: aqua;
 }
+
+.maClass1{
+    background-color: aquamarine;
+    font-style: italic;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 3%;
+}
