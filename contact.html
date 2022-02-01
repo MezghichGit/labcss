@@ -4,9 +4,36 @@
 
 <head>
     <title>ISIKA</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <!--link rel="stylesheet" type="text/css" href="main.css" /-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body{
+            margin:20px
+        }
+    </style>
 </head>
 <body>
     <h1 align="center">Formulaire de contact</h1>
+    <button class="btn btn-primary">Cliquer</button>
+
+    <button class="btn btn-success">Ajouter</button>
+    <button class="btn btn-warning">Modifer</button>
+    <button class="btn btn-danger">Supprimer</button>
+
+    <table border="1" class="table table-hover" style="margin-top: 10px;">
+        <tr><th>Nom</th><th>Email</th></tr>
+        <tr><td>Mohamed Amine</td><td>amine.mezghich@gmail.com</td></tr>
+        <tr><td>Cristophe</td><td>cristophe@gmail.com</td></tr>
+    </table>
+   <form>
+    <div class="form-group">
+        <label for="usr">Name:</label>
+        <input type="text" class="form-control" id="usr">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd">
+      </div>
+   </form> 
 </body>
 <html>

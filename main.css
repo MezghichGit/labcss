@@ -57,3 +57,17 @@ p span{
     padding-bottom: 10px; 
     margin-bottom: 20px;
    }
+
+a:link{
+    color:red;
+}
+
+a:hover{
+    color:blue;
+}
+a:visited{
+    color:green;
+}
+a:active{
+    color:yellowgreen;
+}
