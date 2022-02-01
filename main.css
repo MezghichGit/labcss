@@ -27,3 +27,16 @@ p span{
     border-color: brown;
     border-radius: 3%;
 }
+
+#id1{
+    background-color: blanchedalmond;
+}
+
+.classid1{
+    font-style: italic;
+    color: deepskyblue;
+}
+
+.classid2{
+ border-style: dotted ; 
+}
