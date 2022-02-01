@@ -19,3 +19,11 @@ p span{
     border-color: brown;
     border-radius: 3%;
 }
+
+.maClass2{
+    background-color: chartreuse;
+    font-style: italic;
+    border-style: dashed;
+    border-color: brown;
+    border-radius: 3%;
+}
