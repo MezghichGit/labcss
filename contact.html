@@ -7,12 +7,55 @@
     <!--link rel="stylesheet" type="text/css" href="main.css" /-->
     <link rel="stylesheet" href="bootstrap.min.css">
     <style>
-        body{
-            margin:20px
+        body {
+            /*margin: 20px*/
         }
     </style>
 </head>
+
 <body>
+
+    
+      
+
+    <div class="alert alert-success">
+        <strong>Success!</strong> Indicates a successful or positive action.
+      </div>
+
+      <h1>La notion de grille en Bootstrap</h1>
+
+      <div class="container-fluid">
+        <div class="row" style="border:solid; margin-bottom:5px">
+            <div class="col-lg-4" style="border:solid" align="center">
+                One of three columns
+              </div>
+
+              <div class="col-lg-8" style="border:solid">
+                One of three columns
+              </div>
+        </div>
+
+        <div class="row" style="border:solid">
+            <div class="col-lg-6" style="border:solid">
+                One of three columns
+              </div>
+
+              <div class="col-lg-6" style="border:solid">
+                One of three columns
+              </div>
+        </div>
+
+        <div class="row" style="border:solid">
+            <div class="col-lg-2" style="border:solid">
+                One of three columns
+              </div>
+
+              <div class="col-lg-10" style="border:solid">
+                One of three columns
+              </div>
+        </div>
+    </div>
+
     <h1 align="center">Formulaire de contact</h1>
     <button class="btn btn-primary">Cliquer</button>
 
@@ -21,19 +64,34 @@
     <button class="btn btn-danger">Supprimer</button>
 
     <table border="1" class="table table-hover" style="margin-top: 10px;">
-        <tr><th>Nom</th><th>Email</th></tr>
-        <tr><td>Mohamed Amine</td><td>amine.mezghich@gmail.com</td></tr>
-        <tr><td>Cristophe</td><td>cristophe@gmail.com</td></tr>
+        <tr>
+            <th>Nom</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Mohamed Amine</td>
+            <td>amine.mezghich@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Cristophe</td>
+            <td>cristophe@gmail.com</td>
+        </tr>
     </table>
-   <form>
-    <div class="form-group">
-        <label for="usr">Name:</label>
-        <input type="text" class="form-control" id="usr">
-      </div>
-      <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="pwd">
-      </div>
-   </form> 
+    <form method="POST" action="#">
+        <div style="width: 30%; margin-left:30%">
+            <div class="form-group">
+                <label for="usr">Name:</label>
+                <input type="text" class="form-control" id="usr" required>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+
+            <div class="form-group">
+                <input type="submit" class="form-control" value="Ajouter">
+            </div>
+        </div>
+    </form>
 </body>
 <html>
